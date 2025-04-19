@@ -104,8 +104,8 @@ python emotion_detection.py --mode=camera
 python facial_recognition.py --dataset=lfw --epochs=120  
 ```  
 **Output**:  
-- Recognizes faces from LFW dataset or custom-injected images (![image](https://github.com/user-attachments/assets/9206fa1b-7c0f-4f83-a002-13a81ad0b567)
-).  
+- Recognizes faces from LFW dataset or custom-injected images ![image](https://github.com/user-attachments/assets/69a96fd9-c405-4681-9d7f-6e4da1f1035c)
+ 
 
 ---
 
