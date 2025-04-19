@@ -34,7 +34,10 @@ Commercial APIs (e.g., Microsoft Face API) treat facial analysis as a "black box
 ### 1. **Face Detection**  
 - **Haar Cascade**: Real-time detection using OpenCV.  
 - **YOLOv4**: Higher accuracy (94.82%) but sensitive to face angles/lighting.  
-  - *Limitations*: Struggles with rotated faces (![-2](https://github.com/user-attachments/assets/85f12ba4-72d1-4295-ac7a-141bc9b03362)) and color resemblance (![-1](https://github.com/user-attachments/assets/e4bc905a-b6cc-4517-9340-198b075fbc97).  
+  - *Limitations*: Struggles with rotated faces
+     (![-2](https://github.com/user-attachments/assets/85f12ba4-72d1-4295-ac7a-141bc9b03362))
+    and color resemblance
+    (![-1](https://github.com/user-attachments/assets/e4bc905a-b6cc-4517-9340-198b075fbc97).  
 
 ### 2. **Emotion Detection**  
 - **7-class CNN** (angry, disgust, fear, happy, neutral, sad, surprise).  
