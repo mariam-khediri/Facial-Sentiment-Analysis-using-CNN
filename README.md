@@ -34,7 +34,7 @@ Commercial APIs (e.g., Microsoft Face API) treat facial analysis as a "black box
 ### 1. **Face Detection**  
 - **Haar Cascade**: Real-time detection using OpenCV.  
 - **YOLOv4**: Higher accuracy (94.82%) but sensitive to face angles/lighting.  
-  - *Limitations*: Struggles with rotated faces (Figure 2.6) and color resemblance (Figure 2.7).  
+  - *Limitations*: Struggles with rotated faces (![-2](https://github.com/user-attachments/assets/85f12ba4-72d1-4295-ac7a-141bc9b03362)) and color resemblance (![-1](https://github.com/user-attachments/assets/e4bc905a-b6cc-4517-9340-198b075fbc97).  
 
 ### 2. **Emotion Detection**  
 - **7-class CNN** (angry, disgust, fear, happy, neutral, sad, surprise).  
@@ -49,8 +49,7 @@ Commercial APIs (e.g., Microsoft Face API) treat facial analysis as a "black box
 
 ### 3. **Facial Recognition**  
 - **Dataset**: LFW (13,233 images) + custom-injected faces.  
-- **Custom CNN**: Achieved 76.34% training accuracy.  
-- **LeNet-5 Adaptation**: Modified architecture for improved performance (Figure 4.11).  
+- **Custom CNN**: Achieved 76.34% training accuracy.   
 
 ---
 
@@ -67,7 +66,7 @@ Commercial APIs (e.g., Microsoft Face API) treat facial analysis as a "black box
 ## 📦 Installation  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/facial-sentiment-analysis.git  
+   git clone https://github.com/mariam-khediri/Facial-Sentiment-Analysis-using-CNN.git  
    cd facial-sentiment-analysis  
    ```  
 2. Install dependencies:  
@@ -93,7 +92,8 @@ Commercial APIs (e.g., Microsoft Face API) treat facial analysis as a "black box
 python emotion_detection.py --mode=camera  
 ```  
 **Output**:  
-- Processes webcam feed → detects faces → predicts emotions (Figure 3.7).  
+- Processes webcam feed → detects faces → predicts emotions (![image](https://github.com/user-attachments/assets/703329cf-f829-416f-baf3-6bb7e54bc00d)
+).  
 - Supports image input: `--image=test.jpg`.  
 
 ### Facial Recognition  
@@ -101,7 +101,8 @@ python emotion_detection.py --mode=camera
 python facial_recognition.py --dataset=lfw --epochs=120  
 ```  
 **Output**:  
-- Recognizes faces from LFW dataset or custom-injected images (Figure 4.9).  
+- Recognizes faces from LFW dataset or custom-injected images (![image](https://github.com/user-attachments/assets/9206fa1b-7c0f-4f83-a002-13a81ad0b567)
+).  
 
 ---
 
@@ -125,7 +126,9 @@ python facial_recognition.py --dataset=lfw --epochs=120
 
 **Challenges**:  
 - Low test accuracy due to dataset complexity (5,749 identities).  
-- Dropout layers reduced overfitting (Figures 4.3 vs 4.4).  
+- Dropout layers reduced overfitting (![image](https://github.com/user-attachments/assets/8902501a-12f7-4342-90ab-0ee5ea271418)
+ vs ![image](https://github.com/user-attachments/assets/bc08f6b9-729a-4377-a89a-f8d4b9886c66)
+).  
 
 ---
 
@@ -145,12 +148,3 @@ python facial_recognition.py --dataset=lfw --epochs=120
 
 ## 📜 License  
 MIT © [Mariem Khedhiri](https://github.com/mariam-khediri)  
-```  
-
-### Key Enhancements:  
-1. **Structured Motivation Section**: Clearly explains *why* the project was undertaken.  
-2. **Hyperparameter Tables**: Directly references results from your report (Tables 3.1–4.5).  
-3. **Figures Integration**: Placeholders for visuals (e.g., `Figure 2.6`, `Figure 3.7`). Replace with actual image links.  
-4. **Technical Depth**: Code snippets, installation steps, and dataset specifics.  
-
- 
